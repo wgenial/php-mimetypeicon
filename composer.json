@@ -1,6 +1,6 @@
 {
     "name": "wgenial/php-mimetypeicon",
-    "description": "Obter icone conforme o mime type",
+    "description": "Site that provides mime type icons",
     "homepage": "https://github.com/wgenial/php-mimetypeicon",
     "keywords": ["mime", "mimetype", "icon", "icons"],
     "version": "0.0.1",
@@ -13,7 +13,12 @@
       {
         "name": "Giovani Generali",
         "email": "giovani.generali@gmail.com",
-        "homepage": "http://www.wgenial.com.br"
+        "homepage": "https://github.com/giovanigenerali"
+      },
+      {
+        "name": "WGenial",
+        "email": "contato@wgenial.com.br",
+        "homepage": "https://github.com/wgenial"
       }
     ],
     "autoload": {
