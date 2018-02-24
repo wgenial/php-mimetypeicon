@@ -3,7 +3,7 @@
     "description": "Site that provides mime type icons",
     "homepage": "https://github.com/wgenial/php-mimetypeicon",
     "keywords": ["mime", "mimetype", "icon", "icons"],
-    "version": "1.0.1",
+    "version": "1.0.2",
     "license": "MIT",
     "support": {
       "issues": "https://github.com/wgenial/php-mimetypeicon/issues",
