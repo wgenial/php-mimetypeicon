@@ -37,7 +37,7 @@ echo "<img style='width:180px;height:180px;' src='". PHPMimeTypeIcon::getURI('ht
 .dotx | application/vnd.openxmlformats-officedocument.wordprocessingml.template
 .docm | application/vnd.ms-word.document.macroEnabled.12
 .dotm | application/vnd.ms-word.template.macroEnabled.12
-~~.xls~~ |  application/vnd.ms-excel~~
+~~.xls~~ | ~~application/vnd.ms-excel~~
 .xlt |  application/vnd.ms-excel
 .xla |  application/vnd.ms-excel
 ~~.xlsx~~ | ~~application/vnd.openxmlformats-officedocument.spreadsheetml.sheet~~
