@@ -2,7 +2,7 @@
 
 Site that provides mime type icons
 
-[![Packagist](https://img.shields.io/packagist/v/wgenial/php-mimetypeicon.svg)](https://packagist.org/packages/wgenial/php-mimetypeicon)
+[![Packagist](https://img.shields.io/packagist/v/wgenial/php-mimetypeicon.svg?maxAge=900)](https://packagist.org/packages/wgenial/php-mimetypeicon)
 
 ## Install
 ```
