@@ -32,9 +32,8 @@ echo "<img style='width:180px;height:180px;' src='". PHPMimeTypeIcon::getURI('ht
 **Extension** | **MIME Type**
 --- | ---
 ~~.doc~~ | ~~application/msword~~
-.dot | application/msword
 ~~.docx~~ | ~~application/vnd.openxmlformats-officedocument.wordprocessingml.document~~
-.dotx | application/vnd.openxmlformats-officedocument.wordprocessingml.template
+~~.dotx~~ | ~~application/vnd.openxmlformats-officedocument.wordprocessingml.template~~
 .docm | application/vnd.ms-word.document.macroEnabled.12
 .dotm | application/vnd.ms-word.template.macroEnabled.12
 ~~.xls~~ | ~~application/vnd.ms-excel~~
