@@ -1,6 +1,6 @@
 ## PHP Mime Type Icon
 
-Site that provides mime type icons
+Package that provides mime type icons
 
 [![Packagist](https://img.shields.io/packagist/v/wgenial/php-mimetypeicon.svg?maxAge=900)](https://packagist.org/packages/wgenial/php-mimetypeicon)
 
