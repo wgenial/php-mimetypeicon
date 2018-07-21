@@ -6,7 +6,7 @@ Package that provides mime type icons
 
 ## Install
 ```
-composer require wgenial/php-mimetypeicon
+composer require wgenial/php-mimetypeicon:dev-master
 ```
 
 ## Usage
