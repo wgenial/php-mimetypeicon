@@ -26,6 +26,6 @@
       }
     },
     "require": {
-        "wgenial/php-mimetyper": "^0.2.1"
+        "wgenial/php-mimetyper": "^1.0"
     }
 }
