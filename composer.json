@@ -1,6 +1,6 @@
 {
     "name": "wgenial/php-mimetypeicon",
-    "description": "Site that provides mime type icons",
+    "description": "Package that provides mime type icons",
     "homepage": "https://github.com/wgenial/php-mimetypeicon",
     "keywords": ["mime", "mimetype", "icon", "icons"],
     "license": "MIT",
