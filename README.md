@@ -6,11 +6,13 @@ Package that provides mime type icons
 [![GitHub license](https://img.shields.io/github/license/wgenial/php-mimetypeicon.svg)](https://github.com/wgenial/php-mimetypeicon/blob/master/LICENSE)
 
 ## Install
+
 ```
-composer require wgenial/php-mimetypeicon:dev-master
+composer require wgenial/php-mimetypeicon
 ```
 
 ## Usage
+
 ```php
 <?php
 require __DIR__ . '/vendor/autoload.php';
@@ -30,32 +32,34 @@ echo "<img style='width:180px;height:180px;' src='". PHPMimeTypeIcon::getURI('ht
 ```
 
 ## ToDo
-**Extension** | **MIME Type**
---- | ---
-.docm | application/vnd.ms-word.document.macroEnabled.12
-.dotm | application/vnd.ms-word.template.macroEnabled.12
-.xlt |  application/vnd.ms-excel
-.xla |  application/vnd.ms-excel
-.xltx | application/vnd.openxmlformats-officedocument.spreadsheetml.template
-.xltm | application/vnd.ms-excel.template.macroEnabled.12
-.xlam | application/vnd.ms-excel.addin.macroEnabled.12
-.xlsb | application/vnd.ms-excel.sheet.binary.macroEnabled.12
-.pot |  application/vnd.ms-powerpoint
-.pps |  application/vnd.ms-powerpoint
-.ppa |  application/vnd.ms-powerpoint
-.pptx | application/vnd.openxmlformats-officedocument.presentationml.presentation
-.potx | application/vnd.openxmlformats-officedocument.presentationml.template
-.ppsx | application/vnd.openxmlformats-officedocument.presentationml.slideshow
-.ppam | application/vnd.ms-powerpoint.addin.macroEnabled.12
-.pptm | application/vnd.ms-powerpoint.presentation.macroEnabled.12
-.potm | application/vnd.ms-powerpoint.template.macroEnabled.12
-.ppsm | application/vnd.ms-powerpoint.slideshow.macroEnabled.12
-.mdb |  application/vnd.ms-access
 
+| **Extension** | **MIME Type**                                                             |
+| ------------- | ------------------------------------------------------------------------- |
+| .docm         | application/vnd.ms-word.document.macroEnabled.12                          |
+| .dotm         | application/vnd.ms-word.template.macroEnabled.12                          |
+| .xlt          | application/vnd.ms-excel                                                  |
+| .xla          | application/vnd.ms-excel                                                  |
+| .xltx         | application/vnd.openxmlformats-officedocument.spreadsheetml.template      |
+| .xltm         | application/vnd.ms-excel.template.macroEnabled.12                         |
+| .xlam         | application/vnd.ms-excel.addin.macroEnabled.12                            |
+| .xlsb         | application/vnd.ms-excel.sheet.binary.macroEnabled.12                     |
+| .pot          | application/vnd.ms-powerpoint                                             |
+| .pps          | application/vnd.ms-powerpoint                                             |
+| .ppa          | application/vnd.ms-powerpoint                                             |
+| .pptx         | application/vnd.openxmlformats-officedocument.presentationml.presentation |
+| .potx         | application/vnd.openxmlformats-officedocument.presentationml.template     |
+| .ppsx         | application/vnd.openxmlformats-officedocument.presentationml.slideshow    |
+| .ppam         | application/vnd.ms-powerpoint.addin.macroEnabled.12                       |
+| .pptm         | application/vnd.ms-powerpoint.presentation.macroEnabled.12                |
+| .potm         | application/vnd.ms-powerpoint.template.macroEnabled.12                    |
+| .ppsm         | application/vnd.ms-powerpoint.slideshow.macroEnabled.12                   |
+| .mdb          | application/vnd.ms-access                                                 |
 
 ## Dependency
-* [wgenial/php-mimetyper](https://packagist.org/packages/wgenial/php-mimetyper)
+
+- [wgenial/php-mimetyper](https://packagist.org/packages/wgenial/php-mimetyper)
 
 ## Authors
-* [@giovanigenerali](https://github.com/giovanigenerali)
-* [@wgenial](https://github.com/wgenial)
+
+- [@giovanigenerali](https://github.com/giovanigenerali)
+- [@wgenial](https://github.com/wgenial)
