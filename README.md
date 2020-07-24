@@ -62,4 +62,3 @@ echo "<img style='width:180px;height:180px;' src='". PHPMimeTypeIcon::getURI('ht
 ## Authors
 
 - [@giovanigenerali](https://github.com/giovanigenerali)
-- [@wgenial](https://github.com/wgenial)
