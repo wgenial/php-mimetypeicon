@@ -3,6 +3,7 @@
 Package that provides mime type icons
 
 [![Packagist](https://img.shields.io/packagist/v/wgenial/php-mimetypeicon.svg?maxAge=900)](https://packagist.org/packages/wgenial/php-mimetypeicon)
+[![GitHub license](https://img.shields.io/github/license/wgenial/php-mimetypeicon.svg)](https://github.com/wgenial/php-mimetypeicon/blob/master/LICENSE)
 
 ## Install
 ```
