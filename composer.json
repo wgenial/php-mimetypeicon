@@ -1,31 +1,39 @@
 {
-    "name": "wgenial/php-mimetypeicon",
-    "description": "Package that provides mime type icons",
-    "homepage": "https://github.com/wgenial/php-mimetypeicon",
-    "keywords": ["mime", "mimetype", "icon", "icons"],
-    "license": "MIT",
-    "support": {
-      "issues": "https://github.com/wgenial/php-mimetypeicon/issues",
-      "source": "https://github.com/wgenial/php-mimetypeicon"
+  "name": "wgenial/php-mimetypeicon",
+  "description": "Package that provides mime type icons",
+  "homepage": "https://github.com/wgenial/php-mimetypeicon",
+  "keywords": [
+    "mime-types",
+    "mime",
+    "icons",
+    "php",
+    "mimetypes",
+    "mime-type",
+    "mime-type-icon"
+  ],
+  "license": "MIT",
+  "support": {
+    "issues": "https://github.com/wgenial/php-mimetypeicon/issues",
+    "source": "https://github.com/wgenial/php-mimetypeicon"
+  },
+  "authors": [
+    {
+      "name": "Giovani Generali",
+      "email": "giovani.generali@gmail.com",
+      "homepage": "https://github.com/giovanigenerali"
     },
-    "authors": [
-      {
-        "name": "Giovani Generali",
-        "email": "giovani.generali@gmail.com",
-        "homepage": "https://github.com/giovanigenerali"
-      },
-      {
-        "name": "WGenial",
-        "email": "contato@wgenial.com.br",
-        "homepage": "https://github.com/wgenial"
-      }
-    ],
-    "autoload": {
-      "psr-4": {
-        "WGenial\\PHPMimeTypeIcon\\": "src/"
-      }
-    },
-    "require": {
-        "wgenial/php-mimetyper": "^1.0"
+    {
+      "name": "WGenial",
+      "email": "contato@wgenial.com.br",
+      "homepage": "https://github.com/wgenial"
     }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WGenial\\PHPMimeTypeIcon\\": "src/"
+    }
+  },
+  "require": {
+    "wgenial/php-mimetyper": "^2.0"
+  }
 }
