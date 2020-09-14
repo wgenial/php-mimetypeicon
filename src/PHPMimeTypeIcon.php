@@ -4,9 +4,7 @@ namespace WGenial\PHPMimeTypeIcon;
 use MimeTyper\Repository\MimeDbRepository;
 
 class PHPMimeTypeIcon {
-
-  static public function getURI($file, $size)
-  {
+  static public function getURI($file, $size) {
     $icons_assets_path = "/vendor/wgenial/php-mimetypeicon/icons";
 
     $mime = new MimeDbRepository();
@@ -18,8 +16,11 @@ class PHPMimeTypeIcon {
     $icon_name = !empty($file_mimetype) ? preg_replace("/\//","-", $file_mimetype) : "unknown";
 
     $icon_extension = (($size == "scalable") ? ".svg" : ".png");
-    if(file_exist($icons_assets_path ."/". $size ."/". $icon_name . $icon_extension))return $icons_assets_path ."/". $size ."/". $icon_name . $icon_extension;
-    else return $icons_assets_path ."/". $size ."/none.png";
-  }
 
+    $icon = $icons_assets_path ."/". $size ."/". $icon_name . $icon_extension;
+
+    $icon_fallback = $icons_assets_path ."/". $size ."/none". $icon_extension;
+
+    return file_exist($icon) ? $icon : $icon_fallback;
+  }
 }
