@@ -3,6 +3,8 @@
 Package that provides mime type icons
 
 [![Packagist](https://img.shields.io/packagist/v/wgenial/php-mimetypeicon?style=for-the-badge)](https://packagist.org/packages/wgenial/php-mimetypeicon)
+[![PHP Version](https://img.shields.io/packagist/php-v/wgenial/php-mimetypeicon?style=for-the-badge)](https://github.com/wgenial/php-mimetypeicon/blob/master/composer.json#L37)
+[![Travis](https://img.shields.io/travis/wgenial/php-mimetypeicon?style=for-the-badge&label=travis)](https://travis-ci.org/wgenial/php-mimetypeicon)
 [![License](https://img.shields.io/packagist/l/wgenial/php-mimetypeicon?style=for-the-badge)](https://github.com/wgenial/php-mimetypeicon/blob/master/LICENSE)
 
 ## Install
