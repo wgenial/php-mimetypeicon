@@ -21,6 +21,6 @@ class PHPMimeTypeIcon {
 
     $icon_fallback = $icons_assets_path ."/". $size ."/none". $icon_extension;
 
-    return file_exist($icon) ? $icon : $icon_fallback;
+    return file_exist(getcwd().$icon) ? $icon : $icon_fallback;
   }
 }
