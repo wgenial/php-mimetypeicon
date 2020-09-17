@@ -5,6 +5,7 @@ Package that provides mime type icons
 [![Packagist](https://img.shields.io/packagist/v/wgenial/php-mimetypeicon?style=for-the-badge)](https://packagist.org/packages/wgenial/php-mimetypeicon)
 [![PHP Version](https://img.shields.io/packagist/php-v/wgenial/php-mimetypeicon?style=for-the-badge)](https://github.com/wgenial/php-mimetypeicon/blob/master/composer.json#L37)
 [![Codacy](https://img.shields.io/codacy/grade/60444fd6081749da8fe6187195936235?style=for-the-badge)](https://app.codacy.com/gh/wgenial/php-mimetypeicon)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/wgenial/php-mimetypeicon/Test?label=test&logo=github&style=for-the-badge)](https://github.com/wgenial/php-mimetypeicon/actions?query=workflow%3ATest)
 [![Travis](https://img.shields.io/travis/wgenial/php-mimetypeicon?style=for-the-badge&label=travis)](https://travis-ci.org/wgenial/php-mimetypeicon)
 [![License](https://img.shields.io/packagist/l/wgenial/php-mimetypeicon?style=for-the-badge)](https://github.com/wgenial/php-mimetypeicon/blob/master/LICENSE)
 
